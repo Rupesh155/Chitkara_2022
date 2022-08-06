@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    background-color: aquamarine;
+    align-items: center;
+    /* border: 2px solid green; */
+}
+a{
+    font-size: 1.2rem;
+    color: white;
+}
+div{
+    display: flex;
+    width: 300px;
+    /* border: 2px solid red; */
+    justify-content: space-around;
+}
+@media screen and (max-width:420px)
+{
+    nav{
+        display: flex;
+        flex-direction: column;
+        height: 150px;
+        justify-content: space-around;
+
+    }
+    div{
+        height: 15  0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+}
